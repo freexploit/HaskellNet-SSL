@@ -23,7 +23,7 @@ import Network.HaskellNet.SSL
 import Network.HaskellNet.SSL.Internal
 
 import Network.HaskellNet.BSStream
-import Network.BSD (getHostName)
+import Network.HostName (getHostName)
 
 import qualified Data.ByteString.Char8 as B
 
